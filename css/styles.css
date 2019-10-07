@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('OpenSans-Semibold-webfont.eot');
+    src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Semibold-webfont.woff2') format('woff2'),
+         url('OpenSans-Semibold-webfont.woff') format('woff'),
+         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yataghanregular';
+    src: url('yataghan-webfont.eot');
+    src: url('yataghan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('yataghan-webfont.woff2') format('woff2'),
+         url('yataghan-webfont.woff') format('woff'),
+         url('yataghan-webfont.ttf') format('truetype'),
+         url('yataghan-webfont.svg#yataghanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+  /* this is the main body element */
+  body {
+  background-color: rgba(48, 1, 20, 1.0);
+  }
+header {
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-color: rgba(42, 4, 12, 1.0);
+  text-align: left;
+  padding: 20px;
+  z-index: -1;
+}
+
+h1#logo {
+  font-size: 20px;
+}
+
+  /* this is the main body element */
+nav ul {
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+nav li {
+  font-family: 'open_sanssemibold', sans-serif;
+  font-size: 1.0em;
+  line-height: 40px;
+  height: 20px;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(247, 249, 249, 1.0);
+  display: block;
+}
+
+nav a:hover {
+  color: rgba(177, 19, 9, 1.0);
+}
+
+nav a.active {
+  background-color: rgba(0, 0, 0, 0, 1.0);
+}
+
+h1 {
+  font-size: 33px;
+  color: rgba(177, 19, 9, 1.0);
+  font-family: 'yataghanregular', serif;
+  letter-spacing: .2px
+}
+
+h3 {
+  font-family: 'yataghanregular', Arial, sans-serif;
+  font-size: 36px;
+  float: right;
+  color: rgba(177, 19, 9, 1.0);
+}
+
+p {
+  font-family: 'open_sans'
+}
+/*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*//*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*/
+body#home {
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+}
+
+h2.homewelcome {
+font-family: "open_sanssemibold", Arial, sans-serif;
+font-size: 60px;
+line-height: 60px;
+color: rgba(196, 196, 196, 1.0);
+text-align: center;
+padding: 130px 30px 50px 30px;
+
+}
+
+h2.homereal {
+  font-family: 'yataghanregular', serif;
+  font-size: 130px;
+  color: rgba(247, 249, 249, 1.0);
+  text-align: center;
+  padding: 10px 30px 200px 30px;
+
+}
+
+h3.h3home {
+  font-family: 'open_sanssemibold';
+  text-align: center;
+  width: 100%;
+  padding: 15px 15px;
+  background-color: rgba(216, 209, 210, .78);
+
+  }
+
+  /*what is a vampire??????*/   /*what is a vampire??????*/   /*what is a vampire??????*/   /*what is a vampire??????*/
+
+  p.p1 {
+    height: 75%;
+    width: 75%;
+    padding: 45px;
+    font-family: 'open_sanssemibold', arial, sans-serif;
+    font-size: 25px;
+    border:
+}
+
+p.therein {
+  float: right;
+  color: rgba(247, 249, 249, 1.0);
+  font-family: 'open_sanssemibold', arial, sans-serif;
+  font-size: 17px;
+}
+div.p1whatis {
+  height: 622px;
+  width: 485px;
+  background-color: rgba(247, 249, 249,0.5);
+}
+
+p.pwhatis{
+  color: rgba(247, 249, 249, 1.0);
+  font-family: 'open_sanssemibold', arial, sans-serif;
+  font-size: 12px;
+  text-align: right;
+  float: right;
+  width: 260px;
+}
+  body.club {
+    background-image: url("../images/club.jpg");
+    background-repeat: no-repeat;
+  }
+
+  h2.whatis {
+  font-family: 'open_sanssemibold',serif;
+  font-size: 63px;
+  float:right;
+  color: rgba(177, 19, 9, 1.0);
+
+  }
+
+  h2.typeofvampire {
+  font-family: 'open_sanssemibold',serif;
+  font-size: 80px;
+  color: rgba(177, 19, 9, 1.0);
+
+  }
+
+
+  img.couple2 {
+    display: block;
+    float: right;
+  }
+
+  /*legends vs reality??????*/ /*legends vs reality??????*/ /*legends vs reality??????*/ /*legends vs reality??????*/
