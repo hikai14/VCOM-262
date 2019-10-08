@@ -25,11 +25,26 @@
 
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
   /* this is the main body element */
   body {
   background-color: rgba(48, 1, 20, 1.0);
   }
+
+
 header {
   background-image: url("../images/header.png");
   background-repeat: no-repeat;
@@ -41,21 +56,25 @@ header {
 
 h1#logo {
   font-size: 20px;
+  float: left;
 }
 
   /* this is the main body element */
+
 nav ul {
   list-style: none;
   text-align: center;
   overflow: hidden;
-  padding: 10px;
+  padding: 20px;
   margin: 0;
 }
+
 nav li {
   font-family: 'open_sanssemibold', sans-serif;
   font-size: 1.0em;
   line-height: 40px;
   height: 20px;
+  padding-right: 50px;
   float: left;
 }
 
@@ -77,7 +96,7 @@ h1 {
   font-size: 33px;
   color: rgba(177, 19, 9, 1.0);
   font-family: 'yataghanregular', serif;
-  letter-spacing: .2px
+  letter-spacing: .2px;
 }
 
 h3 {
@@ -90,10 +109,39 @@ h3 {
 p {
   font-family: 'open_sans'
 }
+
+footer#footer {
+  display: block;
+  background-image: url("../images/footer.png");
+  background-color: rgba(216, 209, 210, 1.0);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+
+}
+
+p#contactus {
+  font-family: 'open_sanssemibold', Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+a.top {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-size: 90px;
+  color:
+}
+
+a.footerlink {
+
+}
+
 /*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*//*HOME PAGE!"*/ /*HOME PAGE!"*/ /*HOME PAGE!"*/
 body#home {
   background-image: url("../images/home.png");
   background-repeat: no-repeat;
+  background-color: rgba(222, 222, 221, 1.0);
 }
 
 h2.homewelcome {
@@ -108,10 +156,18 @@ padding: 130px 30px 50px 30px;
 
 h2.homereal {
   font-family: 'yataghanregular', serif;
-  font-size: 130px;
+  font-size: 120px;
   color: rgba(247, 249, 249, 1.0);
   text-align: center;
-  padding: 10px 30px 200px 30px;
+  padding: 10px 30px -5px 30px;
+
+}
+div.bottom{
+  color: rgba(117, 9, 19, 1);
+}
+
+hr.hrhome{
+  border: 60px solid rgba(43, 4, 12, 1);
 
 }
 
@@ -119,37 +175,86 @@ h3.h3home {
   font-family: 'open_sanssemibold';
   text-align: center;
   width: 100%;
-  padding: 15px 15px;
+  padding: 15px 15px 15px 15px;
   background-color: rgba(216, 209, 210, .78);
+  position: absolute;
+  float:left;
+
 
   }
 
+img.spatter {
+position: absolute;
+z-index: -1;
+
+}
+
+  h4.h4home {
+    font-family: 'open_sanssemibold';
+    font-size: 50px;
+    text-align: center;
+    float: right;
+    line-height: 40px;
+    color: rgba(177, 19, 9, 1.0);
+    padding: 200px 180px 0px 0px;
+
+  }
+
+  img.fangs {
+    float: right;
+    position: absolute;
+    padding: 7px 0px 0px 430px;
+    z-index: -1;
+
+  }
+
+  h5.starthome {
+    font-family: 'open_sanssemibold';
+    font-size: 30px;
+    color: rgba(117, 19, 9, 1.0);
+    float: left;
+    background-color: rgba(43, 4, 12, 1.0);
+    position: relative;
+    padding: 200px 10px 90px 90px;
+
+
+  }
+
+  .boxedhome {
+  border: 50px solid rgba(43, 4, 12, 1.0) ;
+  width: 26%;
+  float: left;
+  position: absolute;
+}
+
+
+
   /*what is a vampire??????*/   /*what is a vampire??????*/   /*what is a vampire??????*/   /*what is a vampire??????*/
 
-  p.p1 {
-    height: 75%;
-    width: 75%;
-    padding: 45px;
-    font-family: 'open_sanssemibold', arial, sans-serif;
-    font-size: 25px;
-    border:
-}
 
 p.therein {
   float: right;
   color: rgba(247, 249, 249, 1.0);
-  font-family: 'open_sanssemibold', arial, sans-serif;
+  font-family: 'open_sansregular', arial, sans-serif;
   font-size: 17px;
 }
-div.p1whatis {
-  height: 622px;
-  width: 485px;
+p.p1whatis {
+  font-family: 'open_sansregular', arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  color: rgba(48, 1, 20, 1.0);
+  height: 481px;
+  width: 475px;
   background-color: rgba(247, 249, 249,0.5);
+  float: left;
+  padding: 60px 60px;
+
 }
 
-p.pwhatis{
+p.psan{
   color: rgba(247, 249, 249, 1.0);
-  font-family: 'open_sanssemibold', arial, sans-serif;
+  font-family: 'open_sansregular', arial, sans-serif;
   font-size: 12px;
   text-align: right;
   float: right;
@@ -163,15 +268,17 @@ p.pwhatis{
   h2.whatis {
   font-family: 'open_sanssemibold',serif;
   font-size: 63px;
-  float:right;
+  float:left;
   color: rgba(177, 19, 9, 1.0);
 
   }
 
   h2.typeofvampire {
-  font-family: 'open_sanssemibold',serif;
+  font-family: 'yataghanregular',serif;
   font-size: 80px;
   color: rgba(177, 19, 9, 1.0);
+  padding: 60px 200px 0px 0px;
+  float:right;
 
   }
 
@@ -182,3 +289,16 @@ p.pwhatis{
   }
 
   /*legends vs reality??????*/ /*legends vs reality??????*/ /*legends vs reality??????*/ /*legends vs reality??????*/
+
+  h2.h2lvr {
+    font-family: 'yataghanregular', serif;
+    font-size: 70px;
+    color: rgba(247, 249, 249, 1.0);
+    text-align: left;
+    padding: 400px 30px 200px 30px;
+  }
+
+  body#lvr {
+    background-image: url("../images/lvsr.png");
+    background-repeat: no-repeat;
+  }
