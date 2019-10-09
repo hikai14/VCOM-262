@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('OpenSans-Semibold-webfont.eot');
+    src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Semibold-webfont.woff2') format('woff2'),
+         url('OpenSans-Semibold-webfont.woff') format('woff'),
+         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'yataghanregular';
+    src: url('yataghan-webfont.eot');
+    src: url('yataghan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('yataghan-webfont.woff2') format('woff2'),
+         url('yataghan-webfont.woff') format('woff'),
+         url('yataghan-webfont.ttf') format('truetype'),
+         url('yataghan-webfont.svg#yataghanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ /* this is the main body element */  /* this is the main body element */  /* this is the main body element */
+
+ body {
+   position: relative;
+   width: 1280px;
+   height: 1899px;
+
+   background: rgba(48, 1, 30, 1.0);
+ }
+
+ a#logo {
+  position: absolute;
+  left: 2.98%;
+  right: 82.42%;
+  top: 1.25%;
+  bottom: 93.41%;
+
+  font-family: 'yataghanregular';
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  display: flex;
+  align-items: left;
+  letter-spacing: -0.01em;
+  padding: 0px 30px 10px 20px;
+
+
+  color: rgba(177, 19, 9, 1.0);
+ }
+
+ header {
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: left;
+  padding: 0px;
+
+}
+
+nav ul {
+ list-style: none;
+ text-align: center;
+ overflow: hidden;
+ padding: 30px 40px 40px 40px;
+ margin-left: 70px;
+ margin-top: 40px;
+ margin-bottom: 350px;
+ background-color: rgba(42, 4, 12, .50);
+}
+
+nav li {
+ font-family: 'open_sanssemibold', sans-serif;
+ font-size: 1.0em;
+ line-height: 40px;
+ height: 20px;
+ padding-right: 0px;
+ padding-left: 50px;
+ float:left;
+}
+
+nav a {
+ text-decoration: none;
+ color: rgba(247, 249, 249, 1.0);
+ display: block;
+}
+
+nav a:hover {
+ color: rgba(177, 19, 9, 1.0);
+}
+
+nav a.active {
+ background-color: rgba(0, 0, 0, 0, 1.0);
+}
+
+/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/
+
+footer#footer {
+  display: block;
+  background-image: url("../images/footer.png");
+
+  background-repeat: no-repeat;
+  width: 100%;
+  clear: both;
+  position: sticky;
+  height: 200px;
+  margin-top: -200px;
+
+}
+
+p.contactus {
+  font-family: 'open_sanssemibold', Arial, sans-serif;
+  font-size: 90px;
+  color:
+}
+
+
+a.top {
+  font-family: 'open_sansregular', Arial, sans-serif;
+  font-size: 90px;
+  color:
+}
+
+/* Home!!!!!!!! */ /* Home!!!!!!!! */ /* Home!!!!!!!! */ /* Home!!!!!!!! */ /* Home!!!!!!!! */ /* Home!!!!!!!! */
+
+body#home {
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+h2.h2home {
+  font-family: 'yataghanregular', serif;
+  font-size: 110px;
+  color: rgba(247, 249, 249, 1.0);
+  text-align: center;
+  padding: 100px 30px -5px 30px;
+
+}
+
+img.spatter {
+  position: absolute;
+}
+
+img.fangs {
+    float: right;
+    padding: 200px 0px 0px 430px;
+    z-index: -1;
+
+  }
+
+/*Community!!*/ /*Community!!*/ /*Community!!*/ /*Community!!*/ /*Community!!*/ /*Community!!*/ /*Community!!*/
+
+h2.h2community {
+
+}
+
+div.p1community {
+
+}
+
+div.p2community {
+
+}
